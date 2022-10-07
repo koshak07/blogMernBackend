@@ -15,7 +15,7 @@ const PostSchema = new mongoose.Schema(
       type: Array,
       default: [],
     },
-    vievsCount: {
+    viewsCount: {
       type: Number,
       default: 0,
     },
@@ -24,7 +24,7 @@ const PostSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    avatarUrl: String,
+    imageUrl: String,
   },
 
   {
